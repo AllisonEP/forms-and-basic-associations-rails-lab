@@ -1,3 +1,5 @@
+52 lines (41 sloc)  799 Bytes
+  
 class ArtistsController < ApplicationController
   def index
     @artists = Artist.all
